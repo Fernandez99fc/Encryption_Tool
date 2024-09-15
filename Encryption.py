@@ -58,7 +58,7 @@ def crypted(sentence):
             encryption =encryption +element
     return encryption
 
-print(crypted(input("What do you want to encrypt:")))
+print(crypted(input("Enter cleartext:")))
 
 
 
